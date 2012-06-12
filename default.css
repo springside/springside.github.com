@@ -1,0 +1,218 @@
+/* CSS Document */
+body {
+	margin: 0;
+	font-family: "trebuchet ms", arial, verdana;
+	font-size: 0.74em;
+	color: #555555;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+
+a {
+	color: #4d87ce;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2a65ad;
+}
+
+ol,ul {
+margin-top:10px;
+}
+
+li {
+	line-height: 22px;
+	text-align: left;
+}
+
+#menu {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #94ae62;
+	margin-bottom: 50px;
+	color: #ffffff;
+	text-align: center;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-variant: small-caps;
+	background-image: url(images/menu.jpg);
+}
+
+#menu a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#menu a:hover {
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid #728d40;
+	border-right: 1px solid #e9ffb7;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: #000000;
+	background-color: #ffffff;
+	background-image: url(images/a_hover.jpg);
+}
+
+#header {
+	width: 780px;
+	margin: 0 auto 0 auto;
+	margin-top: 3px;
+	margin-bottom: 25px;
+}
+
+
+#content {
+	width: 780px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+
+
+.clearer {
+	clear: both;
+}
+
+#leftbar {
+	width: 160px;
+	float: left;
+	font-size: 12px;
+	color: #6c534a;
+	text-align: left;
+}
+
+#leftbar h1 {
+	font-family: "trebuchet ms", "century gothic", "arial narrow", arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #eeeeee;
+	color: #4a8c04;
+	text-align: right;
+	margin-top: 0px;
+}
+#leftbar a {
+	display: block;
+	width: 100%;
+	background-image: url(images/submenua.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-right: 0;
+	border-bottom: 1px dashed #eeeeee;
+}
+
+#leftbar a.arch {
+	display: none;
+
+}
+#leftbar a:hover {
+	background-color: #eeeeee;
+	background-image: url(images/submenua_hover.jpg);
+	background-repeat: repeat-y;
+}
+
+#mainbar {
+	font-size: 12px;
+	margin-left: 10px;
+	padding-left: 180px;
+	margin-right: 10px;
+	padding-right: 140px;
+}
+
+#mainbar.noright {
+	padding-left: 200px;
+	padding-right: 0px;
+}
+
+#mainbar h1 {
+	font-family:  "trebuchet ms","century gothic", "arial narrow", arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #eeeeee;
+	color: #4a8c04;
+}
+
+#mainbar p {
+	line-height: 20px;
+}
+
+#mainbar .introduction {
+	font-family: helvetica, arial, sans-serif;
+	line-height: 20px;
+	font-size: 12px;
+	text-indent: 15px;
+	padding: 5px;
+	
+}
+
+#footer {
+	width: 100%;
+	background-color: #b6cf84;
+	border-top: 1px solid #d8efa6;
+	border-bottom: 5px solid #94ae62;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ffffff;
+}
+
+#footer {
+	BORDER-TOP: #d8efa6 1px solid; PADDING-BOTTOM: 5px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 5px; BORDER-BOTTOM: #94ae62 5px solid; BACKGROUND-COLOR: #b6cf84
+}
+#footer A {
+	COLOR: white
+}
+#footer A:hover {
+	COLOR: #009900
+}
+
+
+
+
+.submenu {
+	background-image: url(images/mainbar.jpg);
+  background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.submenu a {
+	display: block;
+	width: 100%;
+	background-image: url(images/submenua.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-right: 0;
+}
+
+.submenu a:hover {
+	background-color: #eeeeee;
+	background-image: url(images/submenua_hover.jpg);
+	background-repeat: repeat-y;
+}
+
+.imgmenu {
+	padding-left: 15px;
+}
+
+.imgmenu img{
+	border: 1px solid #ccc;
+	margin: 3px
+}
+
+.imgmenu a:hover img{
+	border: 1px solid navy;
+}
+
+.imgmenu a:hover{
+	color: red; /* Dummy definition to overcome IE bug */
+}
